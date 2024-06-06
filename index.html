@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="calculadora">
+    <div id="tela1">
+       <h1 id="numero1" class="tela1">0</h1>
+       <h1 id="oper" class="tela1">&nbsp</h1>
+       <h1 id="numero2" class="tela1">0</h1>
+       <h1 class="tela1">=</h1>
+        <h1 id="resul" class="tela1"></h1>
+    </div>
+
+ 
+   <div>
+        <button onclick="operador(0)" class="botoes">+</button>
+        <button onclick="operador(1)" class="botoes">-</button>
+        <button onclick="operador(2)" class="botoes">/</button>
+        <button onclick="operador(3)" class="botoes">x</button>
+        <button onclick="diferentes(0)" class="botoes">Raiz Quadrada</button>      
+   </div>
+   <div id="liberar" class="numeros">
+        <button onclick="numero(0)" class="botoes">0</button>
+        <button onclick="numero(1)" class="botoes">1</button>
+        <button onclick="numero(2)" class="botoes">2</button>
+        <button onclick="numero(3)" class="botoes">3</button>
+        <button onclick="numero(4)" class="botoes">4</button>
+        <button onclick="numero(5)" class="botoes">5</button>
+        <button onclick="numero(6)" class="botoes">6</button>
+        <button onclick="numero(7)" class="botoes">7</button>
+        <button onclick="numero(8)" class="botoes">8</button>
+        <button onclick="numero(9)" class="botoes">9</button>
+        <button onclick="numero('.')" class="botoes">,</button>
+   </div>
+   <div>
+    <button onclick="calcular()" class="botoes">=</button>
+    <button onclick="apagar()" class="botoes2">Apagar</button>
+   </div>
+    </section>
+
+    
+    <script src="app.js" defer></script>  
+</body>
+</html>
